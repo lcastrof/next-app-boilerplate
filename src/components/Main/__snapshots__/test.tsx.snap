@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> should render the heading 1`] = `
+.c0 {
+  background-color: #121212;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-inline: 3em;
+}
+
+.c1 {
+  font-size: 5rem;
+  color: #dedede;
+}
+
+.c2 {
+  font-size: 3rem;
+  background: -webkit-linear-gradient(#8062ff,#6c63ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.c3 {
+  margin-top: 3rem;
+  width: min(60rem,100%);
+}
+
+<main
+  class="c0"
+>
+  <h1
+    class="c1"
+  >
+    Next boilerplate
+  </h1>
+  <h2
+    class="c2"
+  >
+    Nice hacking!
+  </h2>
+  <img
+    alt="Man standing next to rocket watching it launch."
+    class="c3"
+    src="img/launch.svg"
+  />
+</main>
+`;
