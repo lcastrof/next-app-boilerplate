@@ -6,10 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        users: actions/checkout@v2
+        uses: actions/checkout@v2
 
       - name: Setup Node
-        users: actions/setup-node@v1
+        uses: actions/setup-node@v1
         with:
           node-version: 16.x
 
